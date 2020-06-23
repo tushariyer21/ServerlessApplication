@@ -1,0 +1,44 @@
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+  body,div {
+  background-color: grey;
+  }
+  #imgright {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  padding: 0px;
+  margin: 0px;
+  }
+  h1 {
+  color: #006633;
+  text-shadow: 2px 2px #000000;
+  border: 5px;
+  border-style: solid;
+  border-color: #006633;
+  box-shadow: 5px 5px;
+  }
+  .custom {
+  color: #006633;
+  text-shadow: 2px 2px #000000;
+  border: 5px;
+  border-style: solid;
+  border-color: #006633;
+  box-shadow: 5px 5px;
+  }
+  label {
+  color: #006633;
+  }
+  td {
+  color: #006633;
+  }
+</style>
+</head>
+
+
+          <div (onChange)="handleRoutes($event)" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+            <router-outlet></router-outlet>
+          </div>
+
